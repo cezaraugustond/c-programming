@@ -1,0 +1,115 @@
+
+
+Distribuição das aulas ED
+
+# 📦 Distribuição EXATA das aulas
+
+## 🧠 abstract-data-types/
+
+* Aula 01 → TAD
+* Aula 02 → Modularização e TAD
+
+---
+
+## 📋 lists/
+
+(Listas em geral — todas)
+
+* Aula 03–30 → TODAS as listas
+  (estática, encadeada, dupla, circular, descritor)
+
+---
+
+## 📚 queues/
+
+* Aula 31–37 → filas estáticas e dinâmicas
+
+---
+
+## 📚 stacks/
+
+* Aula 38–44 → pilhas
+
+---
+
+## 🔁 deques/
+
+* Aula 115–121 → deque estático e dinâmico
+
+---
+
+## 🔍 searching/
+
+* Aula 45 → busca em vetor
+* Aula 46 → busca em struct
+
+---
+
+## 🔀 sorting/
+
+* Aula 47–55 → ordenações básicas
+* Aula 123 → CountingSort
+* Aula 124 → BucketSort
+* Aula 140 → ShellSort
+* Aula 143 → ordenação estável
+
+---
+
+## 🌐 graphs/
+
+* Aula 56–65 → grafos básicos
+* Aula 112 → árvore geradora mínima
+* Aula 113 → Prim
+* Aula 114 → Kruskal
+
+---
+
+## 🌳 trees/
+
+* Aula 67–84 → árvores + AVL
+* Aula 105–111 → rubro-negra
+* Aula 151–157 → árvores B e variações
+
+---
+
+## #️⃣ hash-tables/
+
+* Aula 89–98 → tabelas hash completas
+
+---
+
+## 📦 sets/
+
+* Aula 131–135 → conjunto
+* Aula 136–139 → multiconjunto
+
+---
+
+## 🧩 advanced-structures/
+
+* Aula 125–129 → SkipList
+* Aula 130 → ponteiros genéricos
+* Aula 85–88 → fila de prioridade / heap
+
+---
+
+## 💾 file-structures/
+
+* Aula 141–150 → estruturas em arquivo
+* Aula 144–145 → reuso de memória
+* Aula 146–147 → índices
+* Aula 148–150 → hashing externo
+
+---
+
+## 📊 algorithm-analysis/
+
+* Aula 99–104 → análise de algoritmos
+* Aula 122 → recorrência
+
+---
+
+## 🧠 extras (pode encaixar onde quiser ou criar pasta)
+
+* Aula 158 → compressão
+* Aula 159 → Huffman

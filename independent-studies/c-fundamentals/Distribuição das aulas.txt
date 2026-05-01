@@ -1,0 +1,166 @@
+Distribuição das aulas
+
+# 📂 Distribuição das aulas
+
+## 🟢 fundamentals/
+
+Base da linguagem
+
+* Aula 01 → Esqueleto de um programa
+* Aula 02 → Variáveis
+* Aula 03 → printf
+* Aula 04 → scanf
+* Aula 05 → Operador de atribuição
+* Aula 06 → Constantes
+* Aula 07 → Operadores aritméticos
+* Aula 08 → Comentários
+* Aula 09 → Pré e pós incremento
+* Aula 10 → Atribuição simplificada
+* Aula 11 → Operadores relacionais
+* Aula 12 → Operadores lógicos
+
+---
+
+## 🟡 control-flow/
+
+Decisões e repetições
+
+* Aula 13 → if
+* Aula 14 → else
+* Aula 15 → if-else aninhado
+* Aula 16 → operador ternário
+* Aula 17 → switch
+* Aula 18 → while
+* Aula 19 → for
+* Aula 20 → do-while
+* Aula 21 → aninhamento de loops
+* Aula 22 → break
+* Aula 23 → continue
+* Aula 24 → goto
+
+---
+
+## 🔵 arrays-and-strings/
+
+* Aula 25 → Array
+* Aula 26 → Matriz
+* Aula 27 → Multidimensional
+* Aula 28 → Inicialização
+* Aula 29 → Soma de array
+* Aula 30 → Maior valor
+* Aula 31 → Strings (básico)
+* Aula 32 → string.h
+* Aula 33 → Inverter string
+* Aula 34 → Contar caracteres
+
+---
+
+## 🟣 structs-and-unions/
+
+* Aula 35 → struct (introdução)
+* Aula 36 → struct prática
+* Aula 37 → array de struct
+* Aula 38 → struct aninhado
+* Aula 39 → union
+* Aula 40 → union exemplos
+* Aula 41 → enum
+* Aula 42 → typedef
+
+---
+
+## 🟠 functions/
+
+* Aula 43 → visão geral
+* Aula 44 → parâmetros
+* Aula 45 → corpo
+* Aula 46 → retorno
+* Aula 47 → passagem por valor
+* Aula 48 → passagem por referência
+* Aula 49 → array como parâmetro
+* Aula 50 → struct como parâmetro
+
+---
+
+## 🔴 recursion/
+
+* Aula 51 → definição
+* Aula 52 → funcionamento
+* Aula 53 → cuidados
+* Aula 54 → exemplo
+
+---
+
+## ⚫ pointers/
+
+* Aula 55 → conceitos
+* Aula 56 → operações
+* Aula 57 → ponteiro genérico
+* Aula 58 → ponteiros e arrays
+* Aula 59 → ponteiro para ponteiro
+
+---
+
+## ⚪ dynamic-memory/
+
+* Aula 60 → introdução
+* Aula 61 → sizeof
+* Aula 62 → malloc
+* Aula 63 → calloc
+* Aula 64 → realloc
+* Aula 65 → matrizes dinâmicas
+
+---
+
+## 🟤 file-handling/
+
+* Aula 66 → introdução
+* Aula 67 → texto vs binário
+* Aula 68 → abrir/fechar
+* Aula 69 → fputc
+* Aula 70 → fgetc
+* Aula 71 → manipulação
+* Aula 72 → EOF
+* Aula 73 → fputs
+* Aula 74 → fgets
+* Aula 75 → fwrite
+* Aula 76 → fread
+* Aula 77 → fprintf
+* Aula 78 → fscanf
+* Aula 79 → fseek / rewind
+
+---
+
+## ⚙️ advanced-topics/
+
+* Aula 80 → parâmetros da main
+* Aula 81 → limpar buffer
+* Aula 92 → classes de armazenamento
+* Aula 93 → volatile
+* Aula 94 → ponteiro para função
+* Aula 95 → bit fields
+* Aula 96 → array de ponteiros
+* Aula 97 → parâmetros variáveis
+* Aula 98 → macros (#define)
+* Aula 99 → inclusão condicional
+* Aula 100 → memória (parte 1)
+* Aula 101 → memória (parte 2)
+* Aula 102 → alinhamento (parte 1)
+* Aula 103 → alinhamento (parte 2)
+
+---
+
+## 🧪 exercises/
+
+Todos os exercícios:
+
+* Aula 82 → Triângulo de Floyd
+* Aula 83 → Divisível 1–10
+* Aula 84 → Número de Euler
+* Aula 85 → Cosseno
+* Aula 86 → Série
+* Aula 87 → Média de array
+* Aula 88 → Média + desvio padrão
+* Aula 89 → Lista de compras (arquivo)
+
+
+01-program-structure.c

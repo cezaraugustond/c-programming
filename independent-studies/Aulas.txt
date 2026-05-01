@@ -1,0 +1,267 @@
+Aulas
+
+Parte 1:
+
+Linguagem C | Aula 01 - Esqueleto de um programa em C
+Linguagem C | Aula 02 - Declaração de Variáveis
+Linguagem C | Aula 03 - Comando printf
+Linguagem C | Aula 04 - Comando scanf
+Linguagem C | Aula 05 - Operador de atribuição
+Linguagem C | Aula 06 - Constantes
+Linguagem C | Aula 07 - Operadores Aritméticos
+Linguagem C | Aula 08 - Comentários
+Linguagem C | Aula 09 - Pré e Pós Incremento
+Linguagem C | Aula 10 - Atribuição Simplificada
+Linguagem C | Aula 11 - Operadores Relacionais
+Linguagem C | Aula 12 - Operadores Lógicos
+Linguagem C | Aula 13 - Comando if
+Linguagem C | Aula 14 - Comando else
+Linguagem C | Aula 15 - Aninhamento if-else
+Linguagem C | Aula 16 - Operador Ternário (?)
+Linguagem C | Aula 17 - Comando switch
+Linguagem C | Aula 18 - Comando while
+Linguagem C | Aula 19 - Comando for
+Linguagem C | Aula 20 - Comando do-while
+Linguagem C | Aula 21 - Aninhamento de Repetições
+Linguagem C | Aula 22 - Comando break
+Linguagem C | Aula 23 - Comando continue
+Linguagem C | Aula 24 - Comando goto
+Linguagem C | Aula 25 - Array / Vetor
+Linguagem C | Aula 26 - Array / Matriz
+Linguagem C | Aula 27 - Array Multidimensional
+Linguagem C | Aula 28 - Inicialização de Arrays
+Linguagem C | Aula 29 - Somando um Array/Vetor
+Linguagem C | Aula 30 - Maior valor de um Array/Vetor
+Linguagem C | Aula 31 - Strings: conceitos básicos
+Linguagem C | Aula 32 - Strings: biblioteca string.h
+Linguagem C | Aula 33 - Strings: invertendo uma string
+Linguagem C | Aula 34 - Strings: contando os caracteres
+Linguagem C | Aula 35 - Introdução as Estruturas (struct)
+Linguagem C | Aula 36 - Trabalhando com estruturas (struct)
+Linguagem C | Aula 37 - Arrays de struct
+Linguagem C | Aula 38 - Aninhamento de struct
+Linguagem C | Aula 39 - Union
+Linguagem C | Aula 40 - Union: Exemplos
+Linguagem C | Aula 41 - Enum
+Linguagem C | Aula 42 - Comando Typedef
+Linguagem C | Aula 43 - Função: Visão Geral
+Linguagem C | Aula 44 - Parâmetros da função
+Linguagem C | Aula 45 - Corpo de uma Função
+Linguagem C | Aula 46 - Retorno de uma Função
+Linguagem C | Aula 47 - Função: Passagem por Valor
+Linguagem C | Aula 48 - Função: Passagem por Referência
+Linguagem C | Aula 49 - Função: Array como parâmetro
+Linguagem C | Aula 50 - Função: struct como parâmetro
+Linguagem C | Aula 51 - Recursão: definição
+Linguagem C | Aula 52 - Recursão: Funcionamento
+Linguagem C | Aula 53 - Recursão: Cuidados
+Linguagem C | Aula 54 - Recursão: Exemplo
+Linguagem C | Aula 55 - Ponteiros: Conceitos
+Linguagem C | Aula 56 - Ponteiros: Operações
+Linguagem C | Aula 57 - Ponteiro Genérico
+Linguagem C | Aula 58 - Ponteiros e Arrays
+Linguagem C | Aula 59 - Ponteiro para Ponteiro
+Linguagem C | Aula 60 - Alocação Dinâmica: Introdução
+Linguagem C | Aula 61 - Alocação Dinâmica: sizeof()
+Linguagem C | Aula 62 - Alocação Dinâmica: malloc()
+Linguagem C | Aula 63 - Alocação Dinâmica: calloc()
+Linguagem C | Aula 64 - Alocação Dinâmica: Realloc
+Linguagem C | Aula 65 - Alocação Dinâmica: Alocação de Matrizes
+Linguagem C | Aula 66 - Arquivos: Introdução
+Linguagem C | Aula 67 - Arquivos: Arquivos texto e binário
+Linguagem C | Aula 68 - Arquivos: Abrir e Fechar
+Linguagem C | Aula 69 - Arquivos: fputc()
+Linguagem C | Aula 70 - Arquivos: fgetc()
+Linguagem C | Aula 71 - Arquivos: Trabalhando com Arquivos
+Linguagem C | Aula 72 - Arquivos: a constante EOF
+Linguagem C | Aula 73 - Arquivos: fputs()
+Linguagem C | Aula 74 - Arquivos: fgets()
+Linguagem C | Aula 75 - Arquivos: fwrite()
+Linguagem C | Aula 76 - Arquivos: fread()
+Linguagem C | Aula 77 - Arquivos: fprintf()
+Linguagem C | Aula 78 - Arquivos: fscanf()
+Linguagem C | Aula 79 - Arquivos: fseek() e rewind()
+Linguagem C | Aula 80 - Parâmetros da função main()
+Linguagem C | Aula 81 - Limpar o Buffer do Teclado
+Linguagem C | Aula 82 - Exercício: Triângulo de Floyd
+Linguagem C | Aula 83 - Exercício: Achar o número divisível por cada um dos números de 1 a 10
+Linguagem C | Aula 84 - Exercício: Calculando o número de Euler, E
+Linguagem C | Aula 85 - Exercício: Cálculo de Cosseno
+Linguagem C | Aula 87 - Exercício: Calculando a média de um array/vetor
+Linguagem C | Aula 86 - Exercício: Cálculo de uma série
+Linguagem C | Aula 89 - Exercício: Lendo uma Lista de Compras de um arquivo
+Linguagem C | Aula 88 - Exercício: Cálculo de Média e Desvio Padrão de um array
+Linguagem C | Aula 92 - Classes de armazenamento
+Linguagem C | Aula 93 - Modificador volatile
+Linguagem C | Aula 94 - Ponteiro para função
+Linguagem C | Aula 95 - Campo de Bits em structs
+Linguagem C | Aula 96 - Array de Ponteiros e Ponteiro de Array
+Linguagem C | Aula 97 - Funções com número de parâmetros variável
+Linguagem C | Aula 98 - Diretiva #define - Funções Macros
+Linguagem C | Aula 99 - Diretivas de Inclusão Condicional
+Linguagem C | Aula 100 - Manipulação de memória - Parte 1
+Linguagem C | Aula 101 - Manipulação de memória - Parte 2
+Linguagem C | Aula 102 - Alinhamento e Preenchimento de Estruturas - Parte 1
+Linguagem C | Aula 103 - Alinhamento e Preenchimento de Estruturas - Parte 2
+
+Parte 2:
+
+Estrutura de Dados em C | Aula 01 - TAD (Tipo Abstrato de Dado)
+Estrutura de Dados em C | Aula 02 - Modularização e TAD
+Estrutura de Dados em C | Aula 03 - Listas: Definição
+Estrutura de Dados em C | Aula 04 - Lista Estática Sequencial
+Estrutura de Dados em C | Aula 05 - Implementação da Lista Estática
+Estrutura de Dados em C | Aula 06 - Informações da Lista Estática
+Estrutura de Dados em C | Aula 07 - Inserção na Lista Estática
+Estrutura de Dados em C | Aula 08 - Remoção na Lista Estática
+Estrutura de Dados em C | Aula 09 - Consulta na Lista Estática
+Estrutura de Dados em C | Aula 10 - Lista Dinâmica Encadeada
+Estrutura de Dados em C | Aula 11 - Implementação da Lista Dinâmica Encadeada
+Estrutura de Dados em C | Aula 12 - Informações da Lista Dinâmica Encadeada
+Estrutura de Dados em C | Aula 13 - Inserção na Lista Dinâmica Encadeada
+Estrutura de Dados em C | Aula 14 - Remoção da Lista Dinâmica Encadeada
+Estrutura de Dados em C | Aula 15 - Consulta na Lista Dinâmica Encadeada
+Estrutura de Dados em C | Aula 16 - Lista Dinâmica Duplamente Encadeada
+Estrutura de Dados em C | Aula 17 - Implementação da Lista Dinâmica Dupla Encadeada
+Estrutura de Dados em C | Aula 18 - Informações da Lista Dinâmica Duplamente Encadeada
+Estrutura de Dados em C | Aula 19 - Inserção na Lista Duplamente Encadeadas
+Estrutura de Dados em C | Aula 20 - Remoção da Lista Duplamente Encadeada
+Estrutura de Dados em C | Aula 21 - Consulta em Lista Duplamente Encadeada
+Estrutura de Dados em C | Aula 22 - Listas Circulares
+Estrutura de Dados em C | Aula 23 - Implementando uma Lista Circular
+Estrutura de Dados em C | Aula 24 - Lista Circular - Informações
+Estrutura de Dados em C | Aula 25 - Inserção na Lista Circular
+Estrutura de Dados em C | Aula 26 - Remoção da Lista Circular
+Estrutura de Dados em C | Aula 27 - Consulta na Lista Circular
+Estrutura de Dados em C | Aula 28 - Lista com Nó Descritor
+Estrutura de Dados em C | Aula 29 - Manipulando uma Lista com Nó Descritor
+Estrutura de Dados em C | Aula 30 - Remoção em uma Lista com Nó Descritor
+Estrutura de Dados em C | Aula 31 - Fila: Definição
+Estrutura de Dados em C | Aula 32 - Criando e Destruindo uma Fila Estática
+Estrutura de Dados em C | Aula 33 - Informações da Fila Estática
+Estrutura de Dados em C | Aula 34 - Inserção e Remoção na Fila Estática
+Estrutura de Dados em C | Aula 35 - Criando e Destruindo uma Fila Dinâmica
+Estrutura de Dados em C | Aula 36 - Informações da Fila Dinâmica
+Estrutura de Dados em C | Aula 37 - Inserção e Remoção na Fila Dinâmica
+Estrutura de Dados em C | Aula 38 - Pilha: Definição
+Estrutura de Dados em C | Aula 39 - Criando e Destruindo uma Pilha Estática
+Estrutura de Dados em C | Aula 40 - Informações da Pilha Estática
+Estrutura de Dados em C | Aula 41 - Inserção e Remoção na Pilha Estática
+Estrutura de Dados em C | Aula 42 - Criando e Destruindo uma Pilha Dinâmica
+Estrutura de Dados em C | Aula 43 - Informações da Pilha Dinâmica
+Estrutura de Dados em C | Aula 44 - Inserção e Remoção na Pilha Dinâmica
+Estrutura de Dados em C | Aula 45 - Busca em Vetores
+Estrutura de Dados em C | Aula 46 - Busca em Vetor de Struct
+Estrutura de Dados em C | Aula 47 - Ordenação de Vetor
+Estrutura de Dados em C | Aula 48 - Ordenação - BubbleSort
+Estrutura de Dados em C | Aula 49 - Ordenação - InsertionSort
+Estrutura de Dados em C | Aula 50 - Ordenação - SelectionSort
+Estrutura de Dados em C | Aula 51 - Ordenação - MergeSort
+Estrutura de Dados em C | Aula 52 - Ordenação - QuickSort
+Estrutura de Dados em C | Aula 53 - Ordenação - HeapSort
+Estrutura de Dados em C | Aula 54 - Ordenação em Vetor de Struct
+Estrutura de Dados em C | Aula 55 - Ordenação - Usando a função qsort()
+Estrutura de Dados em C | Aula 56 - Grafos - Definição
+Estrutura de Dados em C | Aula 57 - Grafos - Propriedades
+Estrutura de Dados em C | Aula 58 - Grafos - Tipos de Grafos - Parte 1
+Estrutura de Dados em C | Aula 59 - Grafos - Tipos de Grafos - Parte 2
+Estrutura de Dados em C | Aula 60 - Representação de Grafos (Parte 1)
+Estrutura de Dados em C | Aula 61 - Representação de Grafos (Parte 2)
+Estrutura de Dados em C | Aula 62 - Busca em Grafos
+Estrutura de Dados em C | Aula 63 - Grafos - Busca em Profundidade
+Estrutura de Dados em C | Aula 64 - Grafos - Busca em Largura
+Estrutura de Dados em C | Aula 65 - Grafos - Busca pelo Menor Caminho
+Estrutura de Dados em C | Aula 66 - Ordenação externa
+Estrutura de Dados em C | Aula 67 - Árvores
+Estrutura de Dados em C | Aula 68 - Árvores - Propriedades
+Estrutura de Dados em C | Aula 69 - Árvore Binária: Definição
+Estrutura de Dados em C | Aula 70 - Árvore Binária: Implementação
+Estrutura de Dados em C | Aula 71 - Árvore Binária: Criando e destruindo uma árvore
+Estrutura de Dados em C | Aula 72 - Árvore Binária: informações básicas
+Estrutura de Dados em C | Aula 73 - Percorrendo uma Árvore Binária
+Estrutura de Dados em C | Aula 74 - Árvore Binária de Busca
+Estrutura de Dados em C | Aula 75 - Inserção em Árvore Binária de Busca
+Estrutura de Dados em C | Aula 76 - Remoção em Árvore Binária de Busca
+Estrutura de Dados em C | Aula 77 - Consulta em Árvore Binária de Busca
+Estrutura de Dados em C | Aula 78 - Árvores Balanceadas
+Estrutura de Dados em C | Aula 79 - Árvore AVL: Definição
+Estrutura de Dados em C | Aula 80 - Árvore AVL: Implementação
+Estrutura de Dados em C | Aula 81 - Árvore AVL: Tipos de Rotação
+Estrutura de Dados em C | Aula 82 - Árvore AVL: Implementando as Rotações
+Estrutura de Dados em C | Aula 83 - Árvore AVL: Inserção
+Estrutura de Dados em C | Aula 84 - Árvore AVL: Remoção
+Estrutura de Dados em C | Aula 85 - Fila de Prioridades: Definição
+Estrutura de Dados em C | Aula 86 - Fila de Prioridades: Implementação
+Estrutura de Dados em C | Aula 87 - Fila de Prioridades: Array Ordenado
+Estrutura de Dados em C | Aula 88 - Fila de Prioridades - Heap Binária
+Estrutura de Dados em C | Aula 89 - Tabela Hash - Definição
+Estrutura de Dados em C | Aula 90 - Tabela Hash - Implementação
+Estrutura de Dados em C | Aula 91 - Tabela Hash - Criando e Destruindo a Tabela
+Estrutura de Dados em C | Aula 92 - Função de Hashing
+Estrutura de Dados em C | Aula 93 - Tabela Hash - Inserção e busca sem tratamento de colisões
+Estrutura de Dados em C | Aula 94 - Tabela Hash - Hashing Universal
+Estrutura de Dados em C | Aula 95 - Tabela Hash - Hashing Perfeito e Imperfeito
+Estrutura de Dados em C | Aula 96 - Tabela Hash - Tratamento de Colisões
+Estrutura de Dados em C | Aula 97 - Tabela Hash - Tratamento de Colisões por Endereçamento Aberto
+Estrutura de Dados em C | Aula 98 - Tabela Hash - Inserção e Busca com Tratamento de Colisão
+Estrutura de Dados em C | Aula 99 - Análise de Algoritmos
+Estrutura de Dados em C | Aula 100 - Análise de Algoritmos - Contando Instruções
+Estrutura de Dados em C | Aula 101 - Análise de Algoritmos - Comportamento Assintótico
+Estrutura de Dados em C | Aula 102 - Análise de Algoritmos - Notação Grande-O
+Estrutura de Dados em C | Aula 103 - Análise de Algoritmos - Tipos de Análise Assintótica
+Estrutura de Dados em C | Aula 104 - Análise de Algoritmos - Classes de Problemas
+Estrutura de Dados em C | Aula 105 - Árvore Rubro Negra - Definição
+Estrutura de Dados em C | Aula 106 - Árvore Rubro Negra Caída para a Esquerda (LLRB)
+Estrutura de Dados em C | Aula 107 - Implementando uma Árvore Rubro Negra
+Estrutura de Dados em C | Aula 108 - Rotação da Árvore Rubro Negra LLRB
+Estrutura de Dados em C | Aula 109 - Árvore Rubro-Negra LLRB - Movendo os nós vermelhos
+Estrutura de Dados em C | Aula 110 - Inserção na Árvore Rubro-Negra - LLRB
+Estrutura de Dados em C | Aula 111 - Remoção na Árvore Rubro-Negra - LLRB
+Estrutura de Dados em C | Aula 112 - Grafo: Árvore Geradora Mínima
+Estrutura de Dados em C | Aula 113 - Algoritmo de Prim
+Estrutura de Dados em C | Aula 114 - Algoritmo de Kruskal
+Estrutura de Dados em C | Aula 115 - Deque: Definição
+Estrutura de Dados em C | Aula 116 - Deque Estático
+Estrutura de Dados em C | Aula 117 - Deque Estático: Informações e Consulta
+Estrutura de Dados em C | Aula 118 - Deque Estático: Inserção e Remoção
+Estrutura de Dados em C | Aula 119 - Deque Dinâmico
+Estrutura de Dados em C | Aula 120 - Deque Dinâmico - Informações e consulta
+Estrutura de Dados em C | Aula 121 - Deque Dinâmico: Inserção e Remoção
+Estrutura de Dados em C | Aula 122 - Relações de Recorrência
+Estrutura de Dados em C | Aula 123 - Ordenação: CountingSort
+Estrutura de Dados em C | Aula 124 - Ordenação BucketSort
+Estrutura de Dados em C | Aula 125 - SkipList: Definição
+Estrutura de Dados em C | Aula 126 - SkipList: Implementação
+Estrutura de Dados em C | Aula 127 - SkipList: Busca
+Estrutura de Dados em C | Aula 128 - SkipList: Inserção
+Estrutura de Dados em C | Aula 129 - SkipList: Remoção
+Estrutura de Dados em C | Aula 130 - Criando uma estrutura de dados com ponteiros genéricos em C
+Estrutura de Dados em C | Aula 131 - Conjunto: definição
+Estrutura de Dados em C | Aula 132 - Conjunto: implementação
+Estrutura de Dados em C | Aula 133 - Conjunto: inserção, remoção e busca
+Estrutura de Dados em C | Aula 134 - Conjunto: criando um iterator
+Estrutura de Dados em C | Aula 135 - Conjunto: união e intersecção
+Estrutura de Dados em C | Aula 136 – Multiconjunto (Bag): definição
+Estrutura de Dados em C | Aula 137 - Multiconjunto (Bag): implementação
+Estrutura de Dados em C | Aula 138 - Multiconjunto (Bag): inserção, remoção e busca
+Estrutura de Dados em C | Aula 139 - Multiconjunto (Bag): criando um iterator
+Estrutura de Dados em C | Aula 140 - Ordenação: ShellSort
+Estrutura de Dados em C | Aula 141 - Tabela de Alocação de Arquivos (FAT)
+Estrutura de Dados em C | Aula 142 - Algoritmo Rabin-Karp
+Estrutura de Dados em C | Aula 143 - Ordenação estável: exemplo de uso
+Estrutura de Dados em C | Aula 144 - Reuso Estático de memória em arquivo
+Estrutura de Dados em C | Aula 145 - Reuso Dinâmico de memória em arquivo
+Estrutura de Dados em C | Aula 146 - Índice Linear em arquivos
+Estrutura de Dados em C | Aula 147 - Lista invertida e índice secundário em arquivo
+Estrutura de Dados em C | Aula 148 - Hashing Externo (memória secundária)
+Estrutura de Dados em C | Aula 149 - Hashing Estático (memória secundária)
+Estrutura de Dados em C | Aula 150 - Hashing Extensível (memória secundária)
+Estrutura de Dados em C | Aula 151 – Árvore B
+Estrutura de Dados em C | Aula 152 – Árvore B | Inserção
+Estrutura de Dados em C | Aula 153 – Árvore B | Remoção
+Estrutura de Dados em C | Aula 154 – Árvore B Virtual
+Estrutura de Dados em C | Aula 155 – Árvore B*
+Estrutura de Dados em C | Aula 156 - Árvore B+
+Estrutura de Dados em C | Aula 157 - Árvore B+ de prefixo simples
+Estrutura de Dados em C | Aula 158 - Compressão de dados
+Estrutura de Dados em C | Aula 159 - Código de Huffman
