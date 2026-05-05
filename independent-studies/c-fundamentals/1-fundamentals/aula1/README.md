@@ -38,4 +38,4 @@ int main() {
 
 # Práticas:
 
-1.(./pratica1.) Desenvolva um algoritmo que exiba uma mensagem na tela. O programa deve mostrar o texto `"Hello World!"` no console.
+- [1](./pratica1.c) Desenvolva um algoritmo que exiba uma mensagem na tela. O programa deve mostrar o texto `"Hello World!"` no console.
