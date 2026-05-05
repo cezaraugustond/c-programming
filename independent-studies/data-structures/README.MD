@@ -13,7 +13,7 @@
 
 ---
 
-##[2- Lists:](./lists) Implementações de listas (estática, encadeada, dupla, circular e com descritor)
+## [2- Lists:](./lists) Implementações de listas (estática, encadeada, dupla, circular e com descritor)
 
 * [Aula 03 - Listas: Definição](./lists/aula3)
 * [Aula 04 - Lista Estática Sequencial](./lists/aula4)
