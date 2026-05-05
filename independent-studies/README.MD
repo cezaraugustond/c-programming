@@ -6,9 +6,7 @@
 
 ---
 
-## Estrutura
-
-### [C Fundamentals](./c-fundamentals)
+## [C Fundamentals](./c-fundamentals)
 
 - Você encontrará:
 	* Sintaxe básica
@@ -22,7 +20,7 @@
 
 ---
 
-### [Data Structures](./data-structures)
+## [Data Structures](./data-structures)
 
 - Você encontrará:
 	* Listas, pilhas e filas
