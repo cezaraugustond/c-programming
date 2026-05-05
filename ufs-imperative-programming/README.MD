@@ -142,11 +142,11 @@ Escrever programa para “automatizar” o jogo.
     	2. O cliente escolhe a vaga em que deseja estacionar seu carro.
     	3. É registrado no sistema a hora de chegada no estacionamento e a placa..
     	4. Cada 15min custa R$ 2.30.
-MENU:
-	1. Mostrar vagas disponíveis.
-	2. Mostrar detalhes das vagas
-	3. Adicionar carro.
-	4. Remover carro e mostrar valor total a ser pago.
+		MENU:
+			1. Mostrar vagas disponíveis.
+			2. Mostrar detalhes das vagas
+			3. Adicionar carro.
+			4. Remover carro e mostrar valor total a ser pago.
 	5. Sair.
 
 
