@@ -58,7 +58,6 @@ int numero = 8;
     double pi = 3.14159265359;
     
     ```
-    
 
 # Práticas:
 
