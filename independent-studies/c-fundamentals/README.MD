@@ -5,7 +5,7 @@
 
 ---
 
-## [1 - Fundamentals](./1-fundamentals): Base da linguagem C.
+## [1- Fundamentals:](./1-fundamentals) Base da linguagem C
 
 * [Aula 01 - Esqueleto de um programa](./1-fundamentals/aula1)
 * [Aula 02 - Variáveis](./1-fundamentals/aula2)
@@ -22,7 +22,7 @@
 
 ---
 
-## [2 - Control Flow](./2-control-flow): Estruturas de decisão e repetição.
+## [2- Control Flow:](./2-control-flow) Estruturas de decisão e repetição
 
 * [Aula 13 - if](./2-control-flow/aula13)
 * [Aula 14 - else](./2-control-flow/aula14)
@@ -39,7 +39,7 @@
 
 ---
 
-## [3 - Arrays and Strings](./3-arrays-and-strings): Manipulação de vetores, matrizes e strings.
+## [3- Arrays and Strings:](./3-arrays-and-strings) Manipulação de vetores, matrizes e strings
 
 * [Aula 25 - Array](./3-arrays-and-strings/aula25)
 * [Aula 26 - Matriz](./3-arrays-and-strings/aula26)
@@ -54,7 +54,7 @@
 
 ---
 
-## [4 - Structs and Unions](./4-structs-and-unions): Estruturas compostas e tipos personalizados.
+## [4- Structs and Unions:](./4-structs-and-unions) Estruturas compostas e tipos personalizados
 
 * [Aula 35 - struct (introdução)](./4-structs-and-unions/aula35)
 * [Aula 36 - struct prática](./4-structs-and-unions/aula36)
@@ -67,7 +67,7 @@
 
 ---
 
-## [5 - Functions](./5-functions): Criação e uso de funções.
+## [5- Functions:](./5-functions) Criação e uso de funções
 
 * [Aula 43 - visão geral](./5-functions/aula43)
 * [Aula 44 - parâmetros](./5-functions/aula44)
@@ -80,7 +80,7 @@
 
 ---
 
-## [6 - Recursion](./6-recursion): Conceitos e aplicações de recursão.
+## [6- Recursion:](./6-recursion) Conceitos e aplicações de recursão
 
 * [Aula 51 - definição](./6-recursion/aula51)
 * [Aula 52 - funcionamento](./6-recursion/aula52)
@@ -89,7 +89,7 @@
 
 ---
 
-## [7 - Pointers](./7-pointers): Manipulação de endereços e memória.
+## [7- Pointers:](./7-pointers) Manipulação de endereços e memória
 
 * [Aula 55 - conceitos](./7-pointers/aula55)
 * [Aula 56 - operações](./7-pointers/aula56)
@@ -99,7 +99,7 @@
 
 ---
 
-## [8 - Dynamic Memory](./8-dynamic-memory): Alocação dinâmica de memória.
+## [8- Dynamic Memory:](./8-dynamic-memory) Alocação dinâmica de memória
 
 * [Aula 60 - introdução](./8-dynamic-memory/aula60)
 * [Aula 61 - sizeof](./8-dynamic-memory/aula61)
@@ -110,7 +110,7 @@
 
 ---
 
-## [9 - File Handling](./9-file-handling): Manipulação de arquivos em C.
+## [9- File Handling:](./9-file-handling) Manipulação de arquivos em C
 
 * [Aula 66 - introdução](./9-file-handling/aula66)
 * [Aula 67 - texto vs binário](./9-file-handling/aula67)
@@ -129,7 +129,7 @@
 
 ---
 
-## [10 - Advanced Topics](./10-advanced-topics): Tópicos mais avançados da linguagem.
+## [10- Advanced Topics:](./10-advanced-topics) Tópicos mais avançados da linguagem
 
 * [Aula 80 - parâmetros da main](./10-advanced-topics/aula80)
 * [Aula 81 - limpar buffer](./10-advanced-topics/aula81)
@@ -148,7 +148,7 @@
 
 ---
 
-## [Exercises](./exercises): Aplicação prática dos conceitos.
+## [Exercises:](./exercises) Aplicação prática dos conceitos
 
 * [Aula 82 - Triângulo de Floyd](./exercises/aula82)
 * [Aula 83 - Divisível 1–10](./exercises/aula83)
