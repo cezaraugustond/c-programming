@@ -7,7 +7,7 @@
 
 ---
 
-### 🔹 Comentário de linha
+### 1.Comentário de linha
 
 - Usa `//` no início da linha.
 - Tudo que estiver após `//` na mesma linha **é ignorado pelo compilador**.
@@ -28,13 +28,13 @@ int main() {
 
 ```
 
-✅ Observações:
+**Observações:**
 
 - Ideal para **comentários curtos** ou **anotações rápidas**.
 
 ---
 
-### 🔹 Comentário de bloco
+### 2. Comentário de bloco
 
 - Começa com `/*` e termina com `*/`.
 - Tudo que estiver entre `/* */` será ignorado pelo compilador, mesmo em **várias linhas**.
@@ -56,14 +56,14 @@ int main() {
 
 ```
 
-✅ Observações:
+**Observações:**
 
 - Útil para **desativar blocos de código temporariamente**.
 - Bom para **comentários mais longos ou explicações detalhadas**.
 
 ---
 
-### 🔹 Resumo
+## Resumo
 
 | Tipo de comentário | Símbolo | Uso recomendado |
 | --- | --- | --- |
@@ -72,7 +72,7 @@ int main() {
 
 ---
 
-💡 Dica:
+**Dica:**
 
 - Evite exagerar nos comentários **óbvios**.
 - Use comentários para **explicar a lógica** ou **informações importantes** que não são evidentes no código.
@@ -81,5 +81,5 @@ int main() {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que demonstre o uso de comentários em C. O programa deve declarar uma variável inteira, incluir uma linha de código comentada que não será executada e, em seguida, exibir o valor da variável e uma mensagem indicando o fim do programa.
-2. Desenvolva um algoritmo que demonstre o uso de comentários em bloco em C. O programa deve incluir um trecho de código comentado que não será executado e, em seguida, exibir apenas uma mensagem indicando o fim do programa.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que demonstre o uso de comentários em C. O programa deve declarar uma variável inteira, incluir uma linha de código comentada que não será executada e, em seguida, exibir o valor da variável e uma mensagem indicando o fim do programa.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que demonstre o uso de comentários em bloco em C. O programa deve incluir um trecho de código comentado que não será executado e, em seguida, exibir apenas uma mensagem indicando o fim do programa.

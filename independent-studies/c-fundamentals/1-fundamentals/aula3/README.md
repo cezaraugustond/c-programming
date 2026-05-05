@@ -5,7 +5,6 @@
 - `printf()` é usado para **escrever mensagens no console**.
     - Ele pode exibir **textos fixos** e também valores de **variáveis**, usando **especificadores de formato**.
 
----
 
 ## Sintaxe geral
 
@@ -18,9 +17,8 @@ printf("texto %formato", variavel);
 - Os **especificadores de formato** (`%d`, `%c`, `%f`, etc.) indicam **como o valor da variável será exibido**.
 - As variáveis são passadas **depois da vírgula**, na mesma ordem dos formatos.
 
----
 
-### Especificadores mais usados
+## Especificadores mais usados
 
 | Especificador | Tipo de dado exibido | Exemplo |
 | --- | --- | --- |
@@ -78,4 +76,4 @@ Altura com 4 casas: 1.7700
 
 # Práticas:
 
-1. Desenvolva um algoritmo que trabalhe com diferentes tipos de variáveis. O programa deve declarar uma variável do tipo caractere, uma do tipo inteiro e uma do tipo ponto flutuante, atribuindo valores a elas. Em seguida, o programa deve exibir a letra armazenada e o seu valor ASCII, a idade e a altura, além de apresentar a idade e a altura juntas, com a altura formatada com duas casas decimais.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que trabalhe com diferentes tipos de variáveis. O programa deve declarar uma variável do tipo caractere, uma do tipo inteiro e uma do tipo ponto flutuante, atribuindo valores a elas. Em seguida, o programa deve exibir a letra armazenada e o seu valor ASCII, a idade e a altura, além de apresentar a idade e a altura juntas, com a altura formatada com duas casas decimais.

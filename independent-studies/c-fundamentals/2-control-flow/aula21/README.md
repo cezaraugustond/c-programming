@@ -9,9 +9,7 @@
     - `do...while` dentro de `while`, etc.
 - Muito utilizado em situações que envolvem **tabelas, matrizes, combinações e cálculos repetidos em várias dimensões**.
 
----
-
-### 📌 Estrutura geral
+## Estrutura geral
 
 ```c
 repeticao (condição1) {
@@ -30,7 +28,7 @@ repeticao (condição1) {
 
 ---
 
-### ⚠️ Atenção
+## Atenção:
 
 - Sempre verifique se a condição de parada de **cada laço** está correta, para evitar **loops infinitos**.
 - Estruturas muito aninhadas podem dificultar a **leitura e manutenção** do código.
@@ -39,6 +37,6 @@ repeticao (condição1) {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que exiba uma matriz quadrada formada por zeros e uns. O programa deve utilizar apenas estruturas de repetição do tipo `for` para gerar o padrão, exibindo o número **1** quando a linha for igual à coluna e o número **0** nos demais casos, resultando em uma matriz identidade de ordem 4.
-2. Desenvolva um algoritmo que exiba uma matriz quadrada formada por zeros e uns. O programa deve utilizar apenas estruturas de repetição do tipo `while` para gerar o padrão, exibindo o número **1** quando a linha for igual à coluna e o número **0** nos demais casos, resultando em uma matriz identidade de ordem 4.
-3. Desenvolva um algoritmo que exiba uma matriz quadrada formada por zeros e uns. O programa deve utilizar o aninhamento de repetições, combinando a estrutura `while` (para controlar as linhas) e a estrutura `for` (para controlar as colunas), exibindo o número **1** quando a linha for igual à coluna e o número **0** nos demais casos, resultando em uma matriz identidade de ordem 4.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que exiba uma matriz quadrada formada por zeros e uns. O programa deve utilizar apenas estruturas de repetição do tipo `for` para gerar o padrão, exibindo o número **1** quando a linha for igual à coluna e o número **0** nos demais casos, resultando em uma matriz identidade de ordem 4.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que exiba uma matriz quadrada formada por zeros e uns. O programa deve utilizar apenas estruturas de repetição do tipo `while` para gerar o padrão, exibindo o número **1** quando a linha for igual à coluna e o número **0** nos demais casos, resultando em uma matriz identidade de ordem 4.
+- [Prática 3](./pratica3.c) Desenvolva um algoritmo que exiba uma matriz quadrada formada por zeros e uns. O programa deve utilizar o aninhamento de repetições, combinando a estrutura `while` (para controlar as linhas) e a estrutura `for` (para controlar as colunas), exibindo o número **1** quando a linha for igual à coluna e o número **0** nos demais casos, resultando em uma matriz identidade de ordem 4.

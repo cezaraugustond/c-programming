@@ -5,18 +5,17 @@
 - Uma **constante** é um valor **que não pode ser alterado durante a execução do programa**.
 - Ao declarar uma constante, **é obrigatório atribuir um valor inicial**.
 
----
 
-### 🔹 Formas de declarar uma constante
+## Formas de declarar uma constante
 
-### 1️⃣ Usando `const`
+### 1. Usando `const`
 
 ```c
 const tipo nome_da_constante = valor;
 
 ```
 
-Exemplo:
+- Exemplo:
 
 ```c
 #include <stdio.h>
@@ -36,22 +35,21 @@ int main() {
 
 ```
 
-✅ Observações:
-
+** Observações: **
 - A constante **fica armazenada na memória**.
 - Boa prática para **tipos de dados específicos**, como `int`, `float`, `char` etc.
 - Tentativa de alterar o valor resulta em **erro de compilação**.
 
 ---
 
-### 2️⃣ Usando `#define`
+### 2. Usando `#define`
 
 ```c
 #define NOME_DA_CONSTANTE valor
 
 ```
 
-Exemplo:
+- Exemplo:
 
 ```c
 #include <stdio.h>
@@ -68,7 +66,7 @@ int main() {
 
 ```
 
-✅ Observações:
+**Observações:** 
 
 - `#define` é **uma substituição de texto feita pelo compilador**.
 - Durante a compilação, **todas as ocorrências do nome da constante são substituídas pelo valor**.
@@ -77,7 +75,7 @@ int main() {
 
 ---
 
-### 🔹 Diferenças entre `const` e `#define`
+## Diferenças entre `const` e `#define`
 
 | Característica | `const` | `#define` |
 | --- | --- | --- |
@@ -89,7 +87,7 @@ int main() {
 
 ---
 
-### 🔹 Resumo
+##Resumo
 
 - **Constante** = valor fixo que **não muda durante o programa**.
 - `const` → constante **com tipo**, ocupa memória.
@@ -100,5 +98,5 @@ int main() {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que demonstre o uso de constantes. O programa deve declarar uma constante inteira, realizar uma operação de soma usando essa constante e armazenar o resultado em outra variável. Em seguida, o programa deve exibir o valor da constante e o resultado da soma no console, destacando que o valor da constante não pode ser alterado.
-2. Desenvolva um algoritmo que calcule o perímetro de um círculo usando uma constante definida com `#define`. O programa deve declarar uma constante para o valor de π usando `#define`, definir o valor do raio do círculo, calcular o perímetro utilizando a fórmula: 2*raio*pi, em seguida, exibir o resultado no console.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que demonstre o uso de constantes. O programa deve declarar uma constante inteira, realizar uma operação de soma usando essa constante e armazenar o resultado em outra variável. Em seguida, o programa deve exibir o valor da constante e o resultado da soma no console, destacando que o valor da constante não pode ser alterado.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que calcule o perímetro de um círculo usando uma constante definida com `#define`. O programa deve declarar uma constante para o valor de π usando `#define`, definir o valor do raio do círculo, calcular o perímetro utilizando a fórmula: 2*raio*pi, em seguida, exibir o resultado no console.

@@ -1,13 +1,12 @@
 # AULA 35
 
-# **Struct em C**
+## **Struct em C**
 
 - Uma **struct** (estrutura) permite **agrupar diferentes variáveis** sob um mesmo nome, podendo ser de **tipos distintos**.
 - É usada para **empacotar dados relacionados** em um único bloco lógico.
 
----
 
-### 🔹 Forma geral
+## Forma geral
 
 ```c
 struct nome_struct {
@@ -19,24 +18,25 @@ struct nome_struct {
 
 ```
 
-> ⚠️ Atenção: sempre finalize com ; após fechar a definição.
-> 
+**Atenção: **
+- Sempre finalize com ; após fechar a definição.
+
 
 ---
 
-### 🔹 Onde declarar?
+### Onde declarar?
 
 - **Fora do `main`** → pode ser usada em qualquer função do programa.
 - **Dentro do `main`** → só pode ser usada no escopo local do `main`.
 
 ---
 
-### 🔹 Por que usar?
+### Por que usar?
 
 - Sem struct: cada variável precisa ser declarada separadamente.
 - Com struct: um só identificador agrupa os campos, facilitando a organização.
 
-Exemplo:
+- Exemplo:
 
 ```c
 // Sem struct
@@ -54,9 +54,9 @@ struct pessoa p1, p2;
 
 ---
 
-### 🔹 Campos com nomes iguais em structs diferentes
+### Campos com nomes iguais em structs diferentes
 
-Cada struct tem seu **próprio escopo de campos**.
+- Cada struct tem seu **próprio escopo de campos**.
 
 ```c
 struct ponto2D { int x, y; };
@@ -74,13 +74,13 @@ int main() {
 
 ```
 
-✅ Válido, pois `p2.x` e `p3.x` pertencem a tipos diferentes.
+- Válido, pois `p2.x` e `p3.x` pertencem a tipos diferentes.
 
 ---
 
-### 🔹 Como acessar os campos?
+### Como acessar os campos?
 
-Usa-se o **operador `.`** (ponto):
+- Usa-se o **operador `.`** (ponto):
 
 ```c
 struct pessoa p;
@@ -90,7 +90,7 @@ p.idade = 31;
 
 ---
 
-### 🔹 Strings em structs
+### Strings em structs
 
 - **Não é possível atribuir diretamente**:
     
@@ -109,7 +109,7 @@ p.idade = 31;
 
 ---
 
-### 🔹 Exemplo completo
+## Exemplo 
 
 ```c
 #include <stdio.h>
@@ -154,5 +154,5 @@ int main() {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que **armazene e exiba informações de uma pessoa utilizando uma estrutura (`struct`)**. O programa deve **definir uma estrutura contendo os campos nome, idade, rua e número**, atribuir valores fixos para alguns desses campos, **solicitar ao usuário a digitação do nome e do número da residência** e, ao final, **exibir todos os dados armazenados de forma organizada**.
-2. Desenvolva um algoritmo que **utilize estruturas (`struct`) para representar pontos em 2D e 3D**. O programa deve **definir duas estruturas, sendo uma com os campos x e y (ponto no plano 2D) e outra com os campos x, y e z (ponto no espaço 3D)**. Em seguida, deve **solicitar ao usuário os valores das coordenadas correspondentes** e **exibir os pontos informados de forma organizada**.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que **armazene e exiba informações de uma pessoa utilizando uma estrutura (`struct`)**. O programa deve **definir uma estrutura contendo os campos nome, idade, rua e número**, atribuir valores fixos para alguns desses campos, **solicitar ao usuário a digitação do nome e do número da residência** e, ao final, **exibir todos os dados armazenados de forma organizada**.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que **utilize estruturas (`struct`) para representar pontos em 2D e 3D**. O programa deve **definir duas estruturas, sendo uma com os campos x e y (ponto no plano 2D) e outra com os campos x, y e z (ponto no espaço 3D)**. Em seguida, deve **solicitar ao usuário os valores das coordenadas correspondentes** e **exibir os pontos informados de forma organizada**.

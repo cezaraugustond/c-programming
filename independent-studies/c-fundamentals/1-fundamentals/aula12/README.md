@@ -12,7 +12,7 @@ expressão "operador_lógico" expressão
 
 ---
 
-### ✅ Operador **lógico “E”** (`&&`)
+### Operador **lógico “E”** (`&&`)
 
 - O resultado será **1** (verdadeiro) **apenas se as duas expressões forem verdadeiras**.
 - Caso contrário, o resultado será **0** (falso).
@@ -26,7 +26,7 @@ expressão "operador_lógico" expressão
 
 ---
 
-### ✅ Operador **lógico “OU”** (`||`)
+### Operador **lógico “OU”** (`||`)
 
 - O resultado será **1** se **pelo menos uma das expressões for verdadeira**.
 - Será **0** somente se **todas forem falsas**.
@@ -40,7 +40,7 @@ expressão "operador_lógico" expressão
 
 ---
 
-### ✅ Operador **Negação** (`!`)
+### Operador **Negação** (`!`)
 
 - **Inverte o valor lógico** da expressão:
     - Se a expressão for verdadeira (**1**), o resultado será **0**.
@@ -50,6 +50,6 @@ expressão "operador_lógico" expressão
 
 # Práticas:
 
-1. Desenvolva um algoritmo que demonstre o uso dos operadores lógicos em C. O programa deve declarar variáveis inteiras, realizar expressões lógicas utilizando o operador `&&` (E lógico), e exibir na tela tanto as expressões avaliadas quanto o resultado de cada operação.
-2. Desenvolva um algoritmo que demonstre o uso do operador lógico **OU (`||`)** em C. O programa deve declarar variáveis inteiras, realizar expressões lógicas utilizando o operador `||`, e exibir na tela tanto as expressões avaliadas quanto o resultado de cada operação.
-3. Desenvolva um algoritmo que demonstre o uso do operador lógico **de negação (`!`)** em C. O programa deve declarar variáveis inteiras, aplicar o operador `!` em diferentes expressões lógicas e exibir na tela as expressões avaliadas juntamente com o resultado de cada operação.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que demonstre o uso dos operadores lógicos em C. O programa deve declarar variáveis inteiras, realizar expressões lógicas utilizando o operador `&&` (E lógico), e exibir na tela tanto as expressões avaliadas quanto o resultado de cada operação.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que demonstre o uso do operador lógico **OU (`||`)** em C. O programa deve declarar variáveis inteiras, realizar expressões lógicas utilizando o operador `||`, e exibir na tela tanto as expressões avaliadas quanto o resultado de cada operação.
+- [Prática 3](./pratica3.c) Desenvolva um algoritmo que demonstre o uso do operador lógico **de negação (`!`)** em C. O programa deve declarar variáveis inteiras, aplicar o operador `!` em diferentes expressões lógicas e exibir na tela as expressões avaliadas juntamente com o resultado de cada operação.

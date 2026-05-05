@@ -19,7 +19,6 @@ int numero = 8;
 
 ```
 
----
 
 ## Principais tipos de variáveis
 
@@ -63,4 +62,4 @@ int numero = 8;
 
 # Práticas:
 
-1. Desenvolva um algoritmo que declare variáveis de diferentes tipos. O programa deve criar uma variável do tipo caractere, uma do tipo inteiro e uma do tipo ponto flutuante, atribuindo valores a cada uma delas.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que declare variáveis de diferentes tipos. O programa deve criar uma variável do tipo caractere, uma do tipo inteiro e uma do tipo ponto flutuante, atribuindo valores a cada uma delas.

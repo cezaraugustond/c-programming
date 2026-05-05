@@ -7,14 +7,14 @@
 
 ---
 
-### 🔹 Sintaxe geral
+## Sintaxe geral
 
 ```c
 variavel operador= expressao;
 
 ```
 
-Isso é equivalente a:
+- Isso é equivalente a:
 
 ```c
 variavel = variavel operador expressao;
@@ -23,7 +23,7 @@ variavel = variavel operador expressao;
 
 ---
 
-### 🔹 Exemplos práticos
+## Exemplo:
 
 ```c
 #include <stdio.h>
@@ -46,7 +46,7 @@ int main() {
 
 ---
 
-### 🔹 Principais operadores de atribuição simplificada
+## Principais operadores de atribuição simplificada
 
 | Operador | Equivalente | Exemplo | Resultado |
 | --- | --- | --- | --- |
@@ -60,4 +60,4 @@ int main() {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que demonstre o uso de atribuições simples e simplificadas em C. O programa deve declarar três variáveis inteiras, realizar uma operação de soma utilizando atribuição comum em uma delas e aplicar a atribuição simplificada em outra. Em seguida, o programa deve exibir os valores atualizados das variáveis após cada operação.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que demonstre o uso de atribuições simples e simplificadas em C. O programa deve declarar três variáveis inteiras, realizar uma operação de soma utilizando atribuição comum em uma delas e aplicar a atribuição simplificada em outra. Em seguida, o programa deve exibir os valores atualizados das variáveis após cada operação.

@@ -1,13 +1,12 @@
 # AULA 28
 
-# Inicialização de Arrays em C
+## Inicialização de Arrays em C
 
 - **Inicializar um array** significa atribuir valores a ele no momento da declaração.
 - Permite que o array já comece com dados definidos, sem precisar preencher elemento por elemento depois.
 
----
 
-## 🔹 Forma geral
+## Forma geral
 
 ```c
 tipo nome_array[tam1]...[tamN] = {valores};
@@ -20,9 +19,9 @@ tipo nome_array[tam1]...[tamN] = {valores};
 
 ---
 
-## 🔹 Exemplos práticos
+##  Exemplos práticos
 
-### 1️⃣ Array 1D
+### 1. Array 1D
 
 ```c
 int numeros[5] = {10, 20, 30, 40, 50};
@@ -39,7 +38,7 @@ int numeros[] = {10, 20, 30, 40, 50}; // tamanho será 5
 
 ---
 
-### 2️⃣ Array 2D (Matriz)
+### 2. Array 2D (Matriz)
 
 ```c
 int matriz[2][3] = {
@@ -54,7 +53,7 @@ int matriz[2][3] = {
 
 ---
 
-### 3️⃣ Array 3D
+### 3. Array 3D
 
 ```c
 int cubo[2][2][3] = {
@@ -69,7 +68,7 @@ int cubo[2][2][3] = {
 
 ---
 
-## 🔹 Observações importantes
+## Observações:
 
 - Se você inicializar **menos elementos do que o tamanho**, os restantes serão preenchidos com `0`.
 
@@ -80,5 +79,3 @@ int v[5] = {1, 2}; // equivalem a {1, 2, 0, 0, 0}
 
 - A inicialização deve respeitar **a ordem dos índices**: linha → coluna → profundidade (para arrays multidimensionais).
 - Arrays multidimensionais podem ser inicializados parcialmente, mas os elementos restantes sempre virão zerados.
-
----

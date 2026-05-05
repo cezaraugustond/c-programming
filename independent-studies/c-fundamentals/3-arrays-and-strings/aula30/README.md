@@ -1,13 +1,12 @@
 # AULA 30
 
-# Maior e Menor Valor em Arrays em C
+## Maior e Menor Valor em Arrays em C
 
 - Um **array** pode armazenar vários elementos do mesmo tipo.
 - Para encontrar o **maior** e o **menor valor**, percorremos todos os elementos e comparamos cada valor com os atuais **maior** e **menor**.
 
----
 
-## 🔹 Código Exemplo
+## Exemplo:
 
 ```c
 #include <stdio.h>
@@ -34,9 +33,7 @@ int main() {
 
 ```
 
----
-
-## 🔹 Explicação detalhada
+### Explicação detalhada
 
 1. `maior = lista[0]` e `menor = lista[0]` → iniciamos assumindo que o primeiro elemento é o maior e o menor.
 2. `for (int i = 1; i < 7; i++)` → percorre o restante do array.
@@ -46,7 +43,7 @@ int main() {
 
 ---
 
-## 🔹 Observações importantes
+## Observações importantes
 
 - Sempre inicialize `maior` e `menor` com **o primeiro elemento do array**, para garantir comparações corretas.
 - Esse método funciona para arrays de **qualquer tamanho**.
@@ -54,7 +51,7 @@ int main() {
 
 ---
 
-## 🔹 Otimização Avançada: Comparando em Pares
+## Otimização Avançada: Comparando em Pares
 
 - Quando o array é muito grande, podemos **reduzir o número de comparações** usando a estratégia de **comparação em pares**. A ideia é:
     1. **Comparar dois elementos de cada vez** entre si.
@@ -86,8 +83,6 @@ for (int i = 2; i < n; i += 2){
 
 ```
 
----
-
 ### Passo a Passo do Algoritmo
 
 1. **Inicialize maior e menor usando os dois primeiros elementos** do array:
@@ -103,7 +98,7 @@ if (lista[0] > lista[1]) {
 
 ```
 
-1. **Percorra o array em pares a partir do índice 2**:
+2. **Percorra o array em pares a partir do índice 2**:
 
 ```c
 for (int i = 2; i < n; i += 2) {
@@ -112,7 +107,7 @@ for (int i = 2; i < n; i += 2) {
 
 ```
 
-1. **Compare os elementos do par entre si**:
+3. **Compare os elementos do par entre si**:
 
 ```c
     if (a > b) {
@@ -125,19 +120,17 @@ for (int i = 2; i < n; i += 2) {
 
 ```
 
-1. **Se o array tiver tamanho ímpar**, o último elemento pode ser comparado separadamente após o loop.
+4. **Se o array tiver tamanho ímpar**, o último elemento pode ser comparado separadamente após o loop.
 
----
 
-### 🔹 Vantagens do método
+### Vantagens do método
 
 - **Menos comparações**: em vez de sempre duas comparações por elemento (`2*(n-1)`), fazemos cerca de `3n/2`.
 - **Mais eficiente em arrays grandes**.
 - **Raciocínio interessante**: ensina a pensar em otimização de algoritmos, não apenas em implementações básicas.
 
----
 
-### 🔹 Observações
+### Observações
 
 - Para arrays pequenos, a diferença é mínima; a clareza do código é mais importante.
 - Para arrays grandes, especialmente em sistemas críticos ou com milhões de elementos, essa otimização faz diferença.
@@ -147,4 +140,4 @@ for (int i = 2; i < n; i += 2) {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que identifique o maior e o menor valor em um array de números inteiros. O programa deve utilizar um array pré-definido com 7 elementos, percorrer todos os elementos para determinar o maior e o menor valor, e exibir ambos os resultados na tela.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que identifique o maior e o menor valor em um array de números inteiros. O programa deve utilizar um array pré-definido com 7 elementos, percorrer todos os elementos para determinar o maior e o menor valor, e exibir ambos os resultados na tela.

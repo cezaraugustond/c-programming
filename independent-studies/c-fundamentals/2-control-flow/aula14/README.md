@@ -5,7 +5,6 @@
 - O comando **`else`** complementa o `if`.
 - Ele permite executar **um segundo bloco de comandos** caso a condição do `if` seja **falsa**.
 
----
 
 ## Forma geral
 
@@ -21,7 +20,6 @@ if (condicao) {
 - **`if`** → executa o bloco se a condição for verdadeira (`1`).
 - **`else`** → executa o bloco se a condição for falsa (`0`).
 
----
 
 ## Observações importantes
 
@@ -40,4 +38,4 @@ else
 
 # Práticas:
 
-1. Desenvolva um algoritmo que verifique se um número inteiro é par ou ímpar. O programa deve solicitar ao usuário a digitação de um valor inteiro, testar se ele é divisível por 2 e exibir uma mensagem indicando se o valor é par ou ímpar. Ao final, o programa deve exibir uma mensagem indicando o término da execução.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que verifique se um número inteiro é par ou ímpar. O programa deve solicitar ao usuário a digitação de um valor inteiro, testar se ele é divisível por 2 e exibir uma mensagem indicando se o valor é par ou ímpar. Ao final, o programa deve exibir uma mensagem indicando o término da execução.

@@ -4,9 +4,8 @@
 
 - O `scanf()` é usado para **ler dados digitados pelo usuário** e armazená-los em variáveis.
 
----
 
-### Sintaxe geral
+## Sintaxe geral
 
 ```c
 scanf("especificador", &variavel);
@@ -17,9 +16,8 @@ scanf("especificador", &variavel);
 - **`&variavel`** → é o **endereço da variável** onde o valor digitado será guardado.
     - O `&` é necessário porque o `scanf()` precisa saber **onde na memória** colocar o valor digitado.
 
----
 
-### Especificadores mais usados
+## Especificadores mais usados
 
 | Especificador | Tipo de dado lido | Exemplo de entrada |
 | --- | --- | --- |
@@ -30,7 +28,7 @@ scanf("especificador", &variavel);
 
 ---
 
-### Problemas comuns
+## Problemas comuns
 
 1. **Enter no teclado após ler `char`**
     - O `scanf("%c", &variavel);` pode capturar o **Enter** ou o **espaço** digitado antes.
@@ -48,6 +46,6 @@ scanf("especificador", &variavel);
 
 # Práticas:
 
-1. Desenvolva um algoritmo que leia diferentes tipos de variáveis. O programa deve solicitar ao usuário a digitação de uma letra, uma idade, uma altura e o valor de pi, armazenando-os em variáveis do tipo caractere, inteiro, ponto flutuante e ponto flutuante de dupla precisão, respectivamente.
-2. Desenvolva um algoritmo que leia a idade do usuário. O programa deve solicitar ao usuário que digite sua idade e, em seguida, exibir a idade informada no console, indicando o valor em anos.
-3. Desenvolva um algoritmo que leia dois valores fornecidos pelo usuário. O programa deve solicitar ao usuário que digite um número inteiro e um número de ponto flutuante, armazenando-os em variáveis adequadas, e em seguida exibir os dois valores no console.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que leia diferentes tipos de variáveis. O programa deve solicitar ao usuário a digitação de uma letra, uma idade, uma altura e o valor de pi, armazenando-os em variáveis do tipo caractere, inteiro, ponto flutuante e ponto flutuante de dupla precisão, respectivamente.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que leia a idade do usuário. O programa deve solicitar ao usuário que digite sua idade e, em seguida, exibir a idade informada no console, indicando o valor em anos.
+- [Prática 3](./pratica3.c) Desenvolva um algoritmo que leia dois valores fornecidos pelo usuário. O programa deve solicitar ao usuário que digite um número inteiro e um número de ponto flutuante, armazenando-os em variáveis adequadas, e em seguida exibir os dois valores no console.

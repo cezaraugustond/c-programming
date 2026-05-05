@@ -5,8 +5,6 @@
 - O comando **`switch`** é usado quando precisamos **escolher entre vários caminhos possíveis**, de acordo com o valor de uma **expressão inteira ou caractere** (`int` ou `char`).
 - Ele funciona como uma forma **organizada e mais legível** de escrever vários `if-else`.
 
----
-
 ## Estrutura geral
 
 ```c
@@ -29,8 +27,6 @@ switch (variavel) {
 
 ```
 
----
-
 ## Explicação passo a passo
 
 - A **variável** (ou expressão) dentro do `switch` é comparada com cada `case`.
@@ -44,4 +40,4 @@ switch (variavel) {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que identifique um símbolo de pontuação. O programa deve solicitar ao usuário a digitação de um caractere, utilizar a estrutura de seleção *switch* para verificar se o caractere corresponde a ponto, vírgula, dois pontos ou ponto e vírgula, e exibir o respectivo nome do símbolo. Caso o caractere digitado não seja um símbolo de pontuação válido, o programa deve informar que não se trata de pontuação.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que identifique um símbolo de pontuação. O programa deve solicitar ao usuário a digitação de um caractere, utilizar a estrutura de seleção *switch* para verificar se o caractere corresponde a ponto, vírgula, dois pontos ou ponto e vírgula, e exibir o respectivo nome do símbolo. Caso o caractere digitado não seja um símbolo de pontuação válido, o programa deve informar que não se trata de pontuação.

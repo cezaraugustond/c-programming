@@ -5,9 +5,8 @@
 - O **aninhamento** acontece quando você coloca um `if` ou `if-else` **dentro de outro `if` ou `else`**.
 - Isso permite tratar **condições mais complexas** e criar decisões múltiplas.
 
----
 
-## 1️⃣ Estrutura geral de aninhamento
+## 1.Estrutura geral de aninhamento
 
 ```c
 if (condicao1) {
@@ -29,7 +28,6 @@ if (condicao1) {
 - Cada `else` está **sempre ligado ao `if` mais próximo** que ainda não possui um `else`.
 - É possível **ter vários níveis de aninhamento**, mas cuidado para não deixar o código confuso.
 
----
 
 ## Regras importantes
 
@@ -42,4 +40,4 @@ if (condicao1) {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que verifique se um número inteiro é positivo, negativo ou igual a zero. O programa deve solicitar ao usuário a digitação de um valor inteiro, testar o valor utilizando estruturas condicionais e exibir uma mensagem indicando se o número é positivo, negativo ou zero.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que verifique se um número inteiro é positivo, negativo ou igual a zero. O programa deve solicitar ao usuário a digitação de um valor inteiro, testar o valor utilizando estruturas condicionais e exibir uma mensagem indicando se o número é positivo, negativo ou zero.

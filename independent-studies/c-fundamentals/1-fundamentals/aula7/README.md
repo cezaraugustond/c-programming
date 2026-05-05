@@ -14,7 +14,7 @@
 
 ---
 
-### 🔹 Exemplo 1: Soma entre `char`
+### Exemplo 1: Soma entre `char`
 
 ```c
 #include <stdio.h>
@@ -30,14 +30,14 @@ int main() {
 
 ```
 
-✅ Observações:
+**Observações:**
 
 - Em C, **caracteres são armazenados como números inteiros (códigos ASCII)**.
 - Operações aritméticas entre `char` **retornam um número inteiro**, mas podem ser armazenadas em `char` se couberem no tipo.
 
 ---
 
-### 🔹 Exemplo 2: Divisão entre inteiros e float
+### Exemplo 2: Divisão entre inteiros e float
 
 ```c
 #include <stdio.h>
@@ -57,7 +57,7 @@ int main() {
 
 ```
 
-✅ Observações:
+**Observações:**
 
 - Se **ambos os operandos são inteiros**, o resultado da divisão será **truncado para inteiro**.
 - Para obter **resultado real (float/double)**, **pelo menos um dos operandos deve ser float/double**.
@@ -70,7 +70,7 @@ f2 = (float)x1 / 2;  // converte x1 para float antes da divisão
 
 ---
 
-### 🔹 Resumo e dicas
+## Resumo e dicas
 
 1. `%` (resto) → só funciona com **int**.
     
@@ -87,5 +87,5 @@ f2 = (float)x1 / 2;  // converte x1 para float antes da divisão
 
 # Práticas:
 
-1. Desenvolva um algoritmo que utilize operadores aritméticos com diferentes tipos de variáveis. O programa deve declarar variáveis inteiras, de ponto flutuante e caracteres, realizar operações de adição entre variáveis do mesmo tipo e, no caso dos caracteres, somar seus valores ASCII. Em seguida, o programa deve exibir os resultados das operações, mostrando o valor inteiro, o valor float e o caractere correspondente à soma dos valores ASCII.
-2. Desenvolva um algoritmo que demonstre o uso de operadores aritméticos com divisões inteiras e reais. O programa deve declarar variáveis inteiras e de ponto flutuante, realizar uma divisão inteira entre números inteiros, atribuindo o resultado a uma variável inteira e a uma variável float, e realizar uma divisão real utilizando pelo menos um operando de ponto flutuante. Em seguida, o programa deve exibir os resultados das divisões, mostrando a diferença entre divisão inteira e divisão real.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que utilize operadores aritméticos com diferentes tipos de variáveis. O programa deve declarar variáveis inteiras, de ponto flutuante e caracteres, realizar operações de adição entre variáveis do mesmo tipo e, no caso dos caracteres, somar seus valores ASCII. Em seguida, o programa deve exibir os resultados das operações, mostrando o valor inteiro, o valor float e o caractere correspondente à soma dos valores ASCII.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que demonstre o uso de operadores aritméticos com divisões inteiras e reais. O programa deve declarar variáveis inteiras e de ponto flutuante, realizar uma divisão inteira entre números inteiros, atribuindo o resultado a uma variável inteira e a uma variável float, e realizar uma divisão real utilizando pelo menos um operando de ponto flutuante. Em seguida, o programa deve exibir os resultados das divisões, mostrando a diferença entre divisão inteira e divisão real.

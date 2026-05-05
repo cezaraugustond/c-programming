@@ -7,9 +7,9 @@
     - **0** → falso
     - **1** → verdadeiro
 
----
 
-### 🔹 Principais operadores relacionais
+
+## Principais operadores relacionais
 
 | Operador | Significado |
 | --- | --- |
@@ -20,25 +20,25 @@
 | `==` | Igual a |
 | `!=` | Diferente de |
 
-⚠️ **Atenção:**
+**Atenção:**
 
 - `=` é **atribuição** (guarda valor).
 - `==` é **comparação** (verifica igualdade).
 
 ---
 
-### 🔹 Forma geral
+## Forma geral
 
 ```c
 valor1 operador_relacional valor2
 
 ```
 
-O resultado pode ser usado **diretamente** em expressões ou estruturas condicionais (`if`, `while`, etc.).
+- O resultado pode ser usado **diretamente** em expressões ou estruturas condicionais (`if`, `while`, etc.).
 
 ---
 
-⚠️ **Atenção:**
+**Atenção:**
 
 - C trata **qualquer valor diferente de 0 como verdadeiro**.
 
@@ -46,4 +46,4 @@ O resultado pode ser usado **diretamente** em expressões ou estruturas condicio
 
 # Práticas:
 
-1. Desenvolva um algoritmo que demonstre o uso dos operadores relacionais em C. O programa deve declarar duas variáveis inteiras, realizar comparações utilizando os operadores `>`, `>=`, `<`, `<=`, `==` e `!=`, e exibir os resultados de cada operação no console.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que demonstre o uso dos operadores relacionais em C. O programa deve declarar duas variáveis inteiras, realizar comparações utilizando os operadores `>`, `>=`, `<`, `<=`, `==` e `!=`, e exibir os resultados de cada operação no console.

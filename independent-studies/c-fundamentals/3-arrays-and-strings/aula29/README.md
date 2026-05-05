@@ -1,6 +1,6 @@
 # AULA 29
 
-# Somando elementos de um Array em C
+## Somando elementos de um Array em C
 
 - Um **array** armazena vários elementos do mesmo tipo.
 - Para somar todos os elementos, usamos **um laço de repetição** (`for`, `while` ou `do-while`) para percorrer cada posição do array.
@@ -8,7 +8,7 @@
 
 ---
 
-## 🔹 Array 1D (Vetor)
+## Array 1D (Vetor)
 
 ```c
 #include <stdio.h>
@@ -28,9 +28,7 @@ int main() {
 
 ```
 
----
-
-## 🔹 Explicação detalhada
+### Explicação detalhada:
 
 1. `int lista[5] = {1, 2, 3, 4, 5};` → cria um array com 5 elementos.
 2. `int soma = 0;` → inicializa a variável que vai guardar a soma.
@@ -40,9 +38,7 @@ int main() {
 
 ---
 
-## 🔹 2️⃣ Array 2D (Matriz)
-
-### Código:
+## Array 2D (Matriz)
 
 ```c
 #include <stdio.h>
@@ -64,7 +60,7 @@ int main() {
 
 ```
 
-### 🔹 Explicação detalhada
+### Explicação detalhada:
 
 1. `matriz[2][3]` → 2 linhas e 3 colunas.
 2. Dois **laços aninhados**:
@@ -75,7 +71,7 @@ int main() {
 
 ---
 
-## 🔹 Observações importantes:
+## Observações importantes:
 
 - **Sempre respeitar os limites do array** (`0` a `tamanho-1`) para evitar erros.
 - Mesma lógica serve para **arrays 3D ou mais**, usando laços adicionais.
@@ -85,5 +81,5 @@ int main() {
 
 # Práticas:
 
-1. Desenvolva um algoritmo que calcule a soma dos elementos de um array. O programa deve utilizar um vetor com 5 números inteiros já definidos, percorrer todos os elementos para somá-los e exibir o resultado da soma na tela.
-2. Desenvolva um algoritmo que calcule a soma de todos os elementos de uma matriz. O programa deve utilizar uma matriz 2x3 com valores inteiros pré-definidos, percorrer todas as linhas e colunas somando seus elementos e exibir o resultado da soma na tela.
+- [Prática ](./pratica1.c) Desenvolva um algoritmo que calcule a soma dos elementos de um array. O programa deve utilizar um vetor com 5 números inteiros já definidos, percorrer todos os elementos para somá-los e exibir o resultado da soma na tela.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que calcule a soma de todos os elementos de uma matriz. O programa deve utilizar uma matriz 2x3 com valores inteiros pré-definidos, percorrer todas as linhas e colunas somando seus elementos e exibir o resultado da soma na tela.

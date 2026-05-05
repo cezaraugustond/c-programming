@@ -13,11 +13,10 @@ variavel = expressao;
 - A **expressão** pode ser um valor direto, outra variável ou um cálculo.
 - Pode ser usada para **atribuções simples ou encadeadas**.
 
----
 
-### 🔹 Formas de atribuição
+## Formas de atribuição
 
-### 1️⃣ Atribuição simples
+### 1. Atribuição simples
 
 ```c
 #include <stdio.h>
@@ -31,11 +30,12 @@ int main() {
 
 ```
 
-✅ Observação: Sempre que o lado direito for compatível com o tipo da variável, a atribuição ocorre normalmente.
+**Observação:**
+- Sempre que o lado direito for compatível com o tipo da variável, a atribuição ocorre normalmente.
 
 ---
 
-### 2️⃣ Atribuição encadeada
+### 2. Atribuição encadeada
 
 ```c
 #include <stdio.h>
@@ -53,7 +53,7 @@ int main() {
 
 ---
 
-### 3️⃣ Atribuição entre tipos diferentes (char e int)
+### 3. Atribuição entre tipos diferentes (char e int)
 
 ```c
 #include <stdio.h>
@@ -73,14 +73,15 @@ int main() {
 
 ```
 
-✅ Observação: Em C, é possível **atribuir entre tipos compatíveis**, com conversão automática (implícita).
+**Observação:**
+- Em C, é possível **atribuir entre tipos compatíveis**, com conversão automática (implícita).
 
 - `int → char` → pode truncar valores se o número for maior que 255.
 - `char → int` → converte para o valor da tabela ASCII.
 
 ---
 
-### 4️⃣ Atribuição entre tipos numéricos diferentes (int e float)
+### 4. Atribuição entre tipos numéricos diferentes (int e float)
 
 ```c
 #include <stdio.h>
@@ -100,8 +101,7 @@ int main(){
 
 ```
 
-✅ Observação:
-
+** Observação: **
 - Quando atribuímos **float → int**, a parte decimal é **perdida** (truncamento).
 - Para conversões explícitas, podemos usar **type casting**:
     
@@ -115,7 +115,7 @@ int main(){
 
 # Práticas:
 
-1. Desenvolva um algoritmo que demonstre o uso de operadores de atribuição. O programa deve declarar variáveis inteiras, atribuir valores entre elas utilizando o operador de atribuição e realizar uma operação de adição em uma das variáveis. Em seguida, o programa deve exibir os valores de todas as variáveis no console.
-2. Desenvolva um algoritmo que utilize operadores de atribuição encadeados. O programa deve declarar três variáveis inteiras e atribuir a elas o mesmo valor utilizando uma única expressão. Em seguida, o programa deve exibir os valores das três variáveis no console.
-3. Desenvolva um algoritmo que demonstre atribuições entre variáveis de tipos diferentes. O programa deve declarar uma variável inteira e duas variáveis do tipo caractere, atribuindo o valor da variável inteira a uma variável caractere e o valor de uma variável caractere à variável inteira. Em seguida, o programa deve exibir o caractere correspondente ao valor inteiro e o valor inteiro correspondente ao caractere, mostrando a relação com a tabela ASCII.
-4. Desenvolva um algoritmo que demonstre atribuições entre variáveis de tipos numéricos diferentes. O programa deve declarar uma variável inteira e duas variáveis de ponto flutuante, atribuindo o valor da variável inteira a uma variável float e o valor de uma variável float à variável inteira. Em seguida, o programa deve exibir o valor da variável float e o valor inteiro obtido a partir do float, mostrando que a parte fracionária é descartada na conversão para inteiro.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que demonstre o uso de operadores de atribuição. O programa deve declarar variáveis inteiras, atribuir valores entre elas utilizando o operador de atribuição e realizar uma operação de adição em uma das variáveis. Em seguida, o programa deve exibir os valores de todas as variáveis no console.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que utilize operadores de atribuição encadeados. O programa deve declarar três variáveis inteiras e atribuir a elas o mesmo valor utilizando uma única expressão. Em seguida, o programa deve exibir os valores das três variáveis no console.
+- [Prática 3](./pratica3.c) Desenvolva um algoritmo que demonstre atribuições entre variáveis de tipos diferentes. O programa deve declarar uma variável inteira e duas variáveis do tipo caractere, atribuindo o valor da variável inteira a uma variável caractere e o valor de uma variável caractere à variável inteira. Em seguida, o programa deve exibir o caractere correspondente ao valor inteiro e o valor inteiro correspondente ao caractere, mostrando a relação com a tabela ASCII.
+- [Prática 4](./pratica4.c) Desenvolva um algoritmo que demonstre atribuições entre variáveis de tipos numéricos diferentes. O programa deve declarar uma variável inteira e duas variáveis de ponto flutuante, atribuindo o valor da variável inteira a uma variável float e o valor de uma variável float à variável inteira. Em seguida, o programa deve exibir o valor da variável float e o valor inteiro obtido a partir do float, mostrando que a parte fracionária é descartada na conversão para inteiro.

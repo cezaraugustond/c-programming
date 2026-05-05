@@ -1,13 +1,13 @@
 # AULA 37
 
-# **Arrays de `struct` em C**
+## **Arrays de `struct` em C**
 
 - Como uma `struct` é um tipo de dado definido pelo programador, ela pode ser usada dentro de **arrays**, assim como acontece com `int`, `float`, `char`, etc.
 - Isso permite armazenar **vários registros** do mesmo tipo de forma organizada.
 
 ---
 
-## 🔹 Exemplo prático: cadastro de pessoas
+## Exemplo prático: cadastro de pessoas
 
 ```c
 #include <stdio.h>
@@ -60,7 +60,7 @@ int main() {
 
 ---
 
-## 🔹 Conceitos importantes
+## Conceitos importantes
 
 1. **Declaração de array de struct**
     
@@ -79,7 +79,7 @@ int main() {
     
     ```
     
-    > ✅ Ordem correta: índice do array primeiro → depois o ponto da struct.
+    > Ordem correta: índice do array primeiro → depois o ponto da struct.
     > 
 3. **Combinação poderosa:**
     - Arrays + structs = forma eficiente de lidar com **vários registros complexos**.
@@ -88,21 +88,18 @@ int main() {
 
 ---
 
-## 🔹 Vantagens
+## Vantagens
 
-✔ Organização: os dados ficam agrupados de forma lógica.
+- Organização: os dados ficam agrupados de forma lógica.
+- Escalabilidade: basta mudar o tamanho do array (`TAMANHO`) para cadastrar mais registros.
+- Facilidade de manipulação com laços de repetição.
 
-✔ Escalabilidade: basta mudar o tamanho do array (`TAMANHO`) para cadastrar mais registros.
-
-✔ Facilidade de manipulação com laços de repetição.
-
-⚠ Cuidado com:
-
-- **Buffer de entrada:** sempre limpar o `\n` do `fgets`.
-- **Espaço de memória:** arrays muito grandes podem consumir bastante memória na stack.
+- Cuidado com:
+	- **Buffer de entrada:** sempre limpar o `\n` do `fgets`.
+	- **Espaço de memória:** arrays muito grandes podem consumir bastante memória na stack.
 
 ---
 
 # Prática:
 
-1. Desenvolva um algoritmo que utilize **um array de estruturas** para armazenar informações de pessoas. O programa deve permitir o cadastro de múltiplos registros, solicitando ao usuário os dados de cada pessoa (nome, idade, rua e número da residência) e, ao final, exibir todos os registros armazenados com seus respectivos valores formatados.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que utilize **um array de estruturas** para armazenar informações de pessoas. O programa deve permitir o cadastro de múltiplos registros, solicitando ao usuário os dados de cada pessoa (nome, idade, rua e número da residência) e, ao final, exibir todos os registros armazenados com seus respectivos valores formatados.

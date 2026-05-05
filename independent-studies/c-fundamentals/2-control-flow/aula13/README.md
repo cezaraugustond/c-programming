@@ -1,55 +1,51 @@
 # AULA 13
 
-## Operadores Lógicos:
+## Estrutura Condicional `if`
 
-- Os operadores lógicos servem para **combinar expressões** e retornar um resultado **verdadeiro (1)** ou **falso (0)**.
-- Forma geral:
+- O comando **`if`** é usado para **tomar decisões** em um programa.
+- Ele permite executar (ou não) um bloco de código com base no **resultado de uma condição lógica**.
+
+---
+
+## Forma geral
 
 ```c
-expressão "operador_lógico" expressão
+if (condicao) {
+    // comandos a serem executados se a condição for verdadeira
+}
 
 ```
 
----
-
-### ✅ Operador **lógico “E”** (`&&`)
-
-- O resultado será **1** (verdadeiro) **apenas se as duas expressões forem verdadeiras**.
-- Caso contrário, o resultado será **0** (falso).
-
-| Expressão A | Expressão B | A && B |
-| --- | --- | --- |
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+- A **condição** deve ser uma expressão que resulta em:
+    - `1` (verdadeiro) → os comandos dentro do `if` são executados.
+    - `0` (falso) → os comandos dentro do `if` são ignorados.
 
 ---
 
-### ✅ Operador **lógico “OU”** (`||`)
+**Importante**
 
-- O resultado será **1** se **pelo menos uma das expressões for verdadeira**.
-- Será **0** somente se **todas forem falsas**.
-
-| Expressão A | Expressão B | A || B |
-| --- | --- | --- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 1 |
-
----
-
-### ✅ Operador **Negação** (`!`)
-
-- **Inverte o valor lógico** da expressão:
-    - Se a expressão for verdadeira (**1**), o resultado será **0**.
-    - Se a expressão for falsa (**0**), o resultado será **1**.
+- Se houver **apenas um comando**, não é necessário usar chaves `{ }`.
+    
+    ```c
+    if (x > 0)
+        printf("x é positivo\n");
+    
+    ```
+    
+- Porém, **usar chaves sempre é recomendado**, mesmo com um único comando, para evitar erros e tornar o código mais legível.
+    
+    ```c
+    if (x > 0) {
+        printf("x é positivo\n");
+    }
+    
+    ```
+    
 
 ---
 
 # Práticas:
 
-1. Desenvolva um algoritmo que demonstre o uso dos operadores lógicos em C. O programa deve declarar variáveis inteiras, realizar expressões lógicas utilizando o operador `&&` (E lógico), e exibir na tela tanto as expressões avaliadas quanto o resultado de cada operação.
-2. Desenvolva um algoritmo que demonstre o uso do operador lógico **OU (`||`)** em C. O programa deve declarar variáveis inteiras, realizar expressões lógicas utilizando o operador `||`, e exibir na tela tanto as expressões avaliadas quanto o resultado de cada operação.
-3. Desenvolva um algoritmo que demonstre o uso do operador lógico **de negação (`!`)** em C. O programa deve declarar variáveis inteiras, aplicar o operador `!` em diferentes expressões lógicas e exibir na tela as expressões avaliadas juntamente com o resultado de cada operação.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que verifique se um número inteiro é positivo. O programa deve solicitar ao usuário a digitação de um valor inteiro, testar se ele é maior que zero e, caso seja, exibir uma mensagem indicando que o valor é positivo. Ao final, o programa deve exibir uma mensagem indicando o término da execução.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que verifique se um número inteiro é positivo e par. O programa deve solicitar ao usuário a digitação de um valor inteiro, testar se ele é maior que zero e divisível por 2, e, caso ambas as condições sejam verdadeiras, exibir uma mensagem indicando que o valor é par e positivo. Ao final, o programa deve exibir uma mensagem indicando o término da execução.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que calcule o resto da divisão de um número inteiro por 3. O programa deve solicitar ao usuário a digitação de um valor inteiro, verificar se o número é positivo e, caso seja, calcular e exibir o resto da divisão desse número por 3. Ao final, o programa deve exibir uma mensagem indicando o término da execução.

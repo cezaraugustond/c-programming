@@ -1,6 +1,6 @@
 # AULA 32
 
-# Biblioteca `<string.h>`
+## Biblioteca `<string.h>`
 
 | Função | Descrição | Exemplo |
 | --- | --- | --- |
@@ -19,7 +19,7 @@
 
 ---
 
-## 🔹 Dicas práticas
+## Dicas práticas
 
 1. Sempre **garanta espaço suficiente** no array para copiar ou concatenar strings.
 2. Lembre-se de que strings em C **terminam com `\0`**.
@@ -30,5 +30,5 @@
 
 # Práticas:
 
-1. Desenvolva um algoritmo que copie manualmente o conteúdo de uma string para outra. O programa deve armazenar uma palavra ou frase em uma variável, percorrer cada caractere da string original para copiá-la em uma segunda string, adicionar o caractere nulo (`'\0'`) ao final da cópia e exibir ambas as strings na tela.
-2. Desenvolva um algoritmo que demonstre o uso da biblioteca `<string.h>` para manipulação de strings. O programa deve calcular o tamanho de uma string, copiar seu conteúdo para outra string, concatenar duas strings diferentes e comparar duas strings, exibindo os resultados de cada operação na tela.
+- [Prática 1](./pratica1.c) Desenvolva um algoritmo que copie manualmente o conteúdo de uma string para outra. O programa deve armazenar uma palavra ou frase em uma variável, percorrer cada caractere da string original para copiá-la em uma segunda string, adicionar o caractere nulo (`'\0'`) ao final da cópia e exibir ambas as strings na tela.
+- [Prática 2](./pratica2.c) Desenvolva um algoritmo que demonstre o uso da biblioteca `<string.h>` para manipulação de strings. O programa deve calcular o tamanho de uma string, copiar seu conteúdo para outra string, concatenar duas strings diferentes e comparar duas strings, exibindo os resultados de cada operação na tela.
