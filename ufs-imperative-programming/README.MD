@@ -39,27 +39,27 @@
 * [ex25](./conditionals/ex25.c)  Faça um programa para verificar se determinado número inteiro lido N é divisível por A ou B, mas não simultaneamente pelos dois valores dados.  São A e B, bem como N, dados pelo usuário.  Atendendo a condição estabelecida, emitir mensagem “ATENDE CONDIÇÃO”; caso contrário, exibir: “NÃO ATENDE CONDIÇÃO”.
 * [ex26](./conditionals/ex26.c)Desenvolva um algoritmo que calcule o Índice de Massa Corporal (IMC) de uma pessoa. O programa deve solicitar ao usuário o peso (em kg) e a altura (em metros), calcular o IMC utilizando a fórmula `IMC = peso / (altura * altura)` e exibir o valor obtido juntamente com a classificação correspondente, de acordo com os seguintes intervalos:
 	- IMC < 18,5 → Magreza
-    	- 18,5 ≤ IMC < 25 → Saudável
+    - 18,5 ≤ IMC < 25 → Saudável
    	- 25 ≤ IMC < 30 → Sobrepeso
-    	- 30 ≤ IMC < 35 → Obesidade Grau I
-    	- 35 ≤ IMC < 40 → Obesidade Grau II (severa)
+    - 30 ≤ IMC < 35 → Obesidade Grau I
+    - 35 ≤ IMC < 40 → Obesidade Grau II (severa)
    	- IMC ≥ 40 → Obesidade Grau III (mórbida)
 * [ex27](./conditionals/ex27.c) Escrever programa para:
-    	i. Ler medida de lado de um quadrado;
-    	ii. Exibir menu:
-        	a. Área;
-        	b. Perímetro;
-        	c. diagonal;
-    	iii. Exibir a informação solicitada pelo usuário conforme opção de menu selecionada.
+    	1. Ler medida de lado de um quadrado;
+    	2. Exibir menu:
+        	1. Área;
+        	2. Perímetro;
+        	3. diagonal;
+    	3. Exibir a informação solicitada pelo usuário conforme opção de menu selecionada.
 * [ex28](./conditionals/ex28.c) Escrever programa para:
-    	i. Ler um número de 0 a 99.999;
-    	ii.  Exibir menu:
-        	a. U – unidade;
-        	b. D – dezena;
-        	c. C – centena;
-        	d. M – unidade de milhar; 
-        	e. Z – dezena de milhar; 
-    	iii. Exibir a informação solicitada pelo usuário conforme opção de menu selecionada.
+    	1. Ler um número de 0 a 99.999;
+    	2.  Exibir menu:
+        	1. U – unidade;
+        	2. D – dezena;
+        	3. C – centena;
+        	4. M – unidade de milhar; 
+        	5. Z – dezena de milhar; 
+    	3. Exibir a informação solicitada pelo usuário conforme opção de menu selecionada.
 * [ex52](./conditionals/ex52.c) [Adaptado do The Huxley] Nos parques de diversão, para que um usuário possa fazer uso de alguns brinquedos deve atender idade e altura mínimas. O parque Ambrolândia possui 5 brinquedos que possuem essas limitações:
     	- Barca Viking: 1,5m de altura e 12 anos.
     	- Elevator of Death: 1,4m de altura e 14 anos.
@@ -79,12 +79,7 @@ Dada a altura e a idade de uma pessoa P, faça um programa que identifique em qu
 * [ex32](./loops/ex32.c) Escrever programa para efetuar a exibição dos 30 primeiros números ímpares a partir de 51.
 * [ex33](./loops/ex33.c) Escrever programa para exibir a soma de 10 números dados pelo usuário.
 * [ex34](./loops/ex34.c) Escrever programa para ler 15 números (dados pelo usuário) e exibir a soma dos múltiplos de 3 lidos.
-* [ex35](./loops/ex35.c) Escrever programa para calcular:
-    
-    $$
-    \sum_{n=0}^{5} 9^n
-    $$
-Os termos do somatório devem ser exibidos, além do resultado final.
+* [ex35](./loops/ex35.c) Escrever programa para calcular: \sum_{n=0}^{5} 9^n Os termos do somatório devem ser exibidos, além do resultado final.
 * [ex36](./loops/ex36.c) Numa loja de departamentos há 5 departamentos. Do total de vendas diárias de cada departamento a loja destina 13,5% a uma ONG se esta (venda) ultrapassar R$1750,00.  Escrever programa para ler a venda diária de cada departamento e exibir o montante destinado à citada ONG.
 * [ex37](./loops/ex37.c) Escrever programa para exibir números inteiros de A até B, sendo B maior que A, e A e B dados pelo usuário.
 * [ex38](./loops/ex38.c)  Escrever programa  para exibir termos de uma PA (progressão aritmética). Ler valor inicial, razão desta e quantidade de termos desejados.
@@ -118,19 +113,19 @@ Os termos do somatório devem ser exibidos, além do resultado final.
 
 * [ex56](./arrays/ex56.c) Na universidade “DuSabiTudu” os alunos são identificados por matrículas compostas por 10 dígitos.  Os 4 primeiros dígitos correspondem ao ano em que o aluno entrou na instituição.  Assim, todos os alunos cujas matriculas iniciam por 2012 ingressaram no curso superior no ano de 2012.  Os dígitos 5 e 6 da matrícula correspondem ao curso; sendo: 97 para agroecologia e 99 para gerontologia.  Escrever programa para ler a matricula de 100 alunos inscritos no programa “CienciasAlémDasFronteiras” e identificar quantos alunos ingressaram de 2015  no curso de agroecologia.
 * [ex59](./arrays/ex59.c) Implementar programa para ler 20 números e em seguida exibir menu: 
-  	i. Maior Número; 
-    	ii. Menor Número; 
-    	iii. Média Aritmética; 
-   	 iv. Soma; 
-    	v. Sair.  
+  	1. Maior Número; 
+    2. Menor Número; 
+    3. Média Aritmética; 
+   	4. Soma; 
+    5. Sair.  
 Exibir para o usuário o resultado conforme a opção de menu selecionado, considerando o 20 números lidos.  Somente interromper a execução do programa quando o usuário selecionar a opção 5 – Sair.  Nas exibições apresentar o resultado precedido pelos 20 números lidos inicialmente.  Efetuar a limpeza de tela entre cada  exibição distinta (de resultados ou de menu).
 * [ex61](./arrays/ex61.c) Na cidade TemQueFazerNão? as crianças costumam brincar com um jogo (de dois jogadores) onde:
-    	i. Um jogador A define uma sequência de 10 letras usando: G ou R ou B 
+    	1. Um jogador A define uma sequência de 10 letras usando: G ou R ou B 
         	- Exemplo: G – G – G – R – B – R – B – B – B – R;
-    	ii. Um jogador B pode ler a sequência quantas vezes quiser;
-    	iii. O jogador B também pode dizer uma das letras e obter em quais posições a letra dada se encontra na sequência;
-    	iv. O jogador B também pode dar uma posição e saber qual letra ocupa a posição na sequência;
-    	v. Para finalizar, o jogador B deve dizer a sequência de letras, obtendo um ponto para cada acerto.
+    	2. Um jogador B pode ler a sequência quantas vezes quiser;
+    	3. O jogador B também pode dizer uma das letras e obter em quais posições a letra dada se encontra na sequência;
+    	4. O jogador B também pode dar uma posição e saber qual letra ocupa a posição na sequência;
+    	5. Para finalizar, o jogador B deve dizer a sequência de letras, obtendo um ponto para cada acerto.
 Escrever programa para “automatizar” o jogo.
 * [ex62](./arrays/ex62.c) Implementar programa para ler total de vendas, de um determinado mês, dos 10 vendedores da “Matura”, calcular a média de vendas do grupo de vendedores, e exibir quantos vendedores apresentaram desempenho (vendas) abaixo da média.
 * [ex63](./arrays/ex63.c)  Construir programa para ler o gabarito de uma prova objetiva com 5 questões, ler as respostas dadas por 5 alunos da turma e armazenar (para posterior exibição) as notas destes. Cada questão vale 0,5 ponto.
@@ -143,16 +138,16 @@ Escrever programa para “automatizar” o jogo.
     	- A entrada consiste de um conjunto de números inteiros, um por linha. A eleição termina quando o número digitado é -1.
     	- A saída é composta de: quantidade de votos do candidato Alibabá, quantidade de votos do candidato Alcapone, quantidade de votos em branco, quantidade de votos nulos, e qual foi o candidato vencedor.
 * [ex64](./advanced/ex64.c) Considerando a necessidade de construir um programa para definir o valor a pagar por uma vaga de estacionamento, por tempo de uso.
-    	a. As vagas são numeradas.
-    	b. O cliente escolhe a vaga em que deseja estacionar seu carro.
-    	c. É registrado no sistema a hora de chegada no estacionamento e a placa..
-    	d. Cada 15min custa R$ 2.30.
+    	1. As vagas são numeradas.
+    	2. O cliente escolhe a vaga em que deseja estacionar seu carro.
+    	3. É registrado no sistema a hora de chegada no estacionamento e a placa..
+    	4. Cada 15min custa R$ 2.30.
 MENU:
-	i. Mostrar vagas disponíveis.
-	ii. Mostrar detalhes das vagas
-	iii. Adicionar carro.
-	iv. Remover carro e mostrar valor total a ser pago.
-	v. Sair.
+	1. Mostrar vagas disponíveis.
+	2. Mostrar detalhes das vagas
+	3. Adicionar carro.
+	4. Remover carro e mostrar valor total a ser pago.
+	5. Sair.
 
 
 
