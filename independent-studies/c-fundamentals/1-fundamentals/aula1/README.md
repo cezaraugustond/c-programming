@@ -1,4 +1,6 @@
-### 📌 Estrutura básica de um programa em C
+# AULA 1
+
+##  Estrutura básica de um programa em C
 
 ```c
 #include <stdio.h>   // Biblioteca padrão de entrada e saída
@@ -13,7 +15,7 @@ int main() {
 
 ---
 
-### 🔹 Explicação dos componentes
+## Explicação dos componentes
 
 1. **`#include <stdio.h>`**
     - Inclui a **Standard Input Output Library**.

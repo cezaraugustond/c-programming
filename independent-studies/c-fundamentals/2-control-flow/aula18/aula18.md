@@ -1,4 +1,6 @@
-# Estrutura de repetição `while` em C
+# AULA 18
+
+## Estrutura de repetição `while` em C
 
 - O comando **`while`** é usado quando queremos executar um **bloco de comandos repetidamente**, **enquanto uma condição for verdadeira**.
 
