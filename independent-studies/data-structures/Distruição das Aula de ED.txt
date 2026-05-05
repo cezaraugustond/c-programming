@@ -1,15 +1,12 @@
-
-
 Distribuição das aulas ED
 
-# 📦 Distribuição EXATA das aulas
+
 
 ## 🧠 abstract-data-types/
 
 * Aula 01 → TAD
 * Aula 02 → Modularização e TAD
 
----
 
 ## 📋 lists/
 
